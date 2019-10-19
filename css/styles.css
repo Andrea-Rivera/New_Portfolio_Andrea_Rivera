@@ -1,0 +1,263 @@
+.navbar {
+    background-color: #9e9e9e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1004;
+    -webkit-box-shadow: 0px 6px 8px 0px rgba(71,69,71,0.2);
+    -moz-box-shadow: 0px 6px 8px 0px rgba(71,69,71,0.2);
+    box-shadow: 0px 6px 8px 0px rgba(71,69,71,0.2);
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*banner*/
+#banner {
+    background-position: top center;
+    background-size: cover;
+    background-image: url("../images/photo-ocean.jpg");
+    position: relative;
+    background-attachment: fixed;
+    min-height: 889px;
+}
+
+#banner .banner-text {
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+#banner .banner-text h1 {
+    font-weight: 800;
+    color: #fff;
+    font-size: 60px;
+    line-height: 100px;
+    letter-spacing: 2px;
+}
+
+#banner:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#F0FFFF;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+/********************About me*********************************/
+
+#about {
+    padding-top: 120px;
+    padding-bottom: 160px;
+}
+
+#about .about-info-container {
+    background-color: #f3f3f3;
+    margin-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.01);
+}
+
+#about .about-info-container .about-info {
+    text-align: right;
+    padding-right: 50px;
+}
+
+#about .about-info-container .about-info .info-item img {
+    width: 100px;
+    border-radius: 90px;
+    border: 5px solid #fff;
+    margin-bottom: 20px;
+}
+
+#about .about-info-container .about-info .info-item p {
+    margin-bottom: 10px;
+}
+
+#about .about-info-container .about-info .info-item span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #000;
+}
+
+#about .about-info-container .about-skills {
+    padding-left: 50px;
+}
+
+#about .about-info-container .about-skills h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#about .about-info-container .about-skills .progress-box {
+    margin-bottom: 20px;
+}
+
+#about .about-info-container .about-skills .progress-box p {
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+#about .about-info-container .about-skills .progress-box .progress {
+    height: 2px;
+}
+
+#about .about-info-container .about-skills .progress-box .progress .progress-bar {
+    background-color: #616161;
+}
+
+/*************** Portfolio ********************************/
+#portfolio{
+    margin: 30px;
+    text-align: center;
+}
+
+.projects-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    
+  }
+
+  .projects-section-header {
+    max-width: 80px;
+    margin: 0 auto 2rem auto; 
+  }
+
+  .container
+  {
+    margin: auto;
+
+  }
+  .card-mod
+  {
+      margin: 10px;
+      background-color: rgb(232, 241, 232); 
+      border-radius: 5%;
+      box-shadow: 10px black;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+  }
+ 
+.row{
+
+    justify-content: center;
+
+}
+.card-text{
+    color: #696969;
+    margin-top: 20px;
+    height: 200px;
+
+    
+
+}
+.card-title{
+    font-size: 1em;
+    color:black;
+}
+
+.card-img-top{
+    height:150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+
+}
+@media screen and (min-width: 992px) {
+    .card-mod
+{
+    margin: auto;
+    background-color:rgb(219, 216, 216);
+    width: 200px ;
+    min-height: 100%;
+}
+    
+}
+.btn_card{
+    background-image: -webkit-linear-gradient(top, #86e070, #327299);
+  background-image: -moz-linear-gradient(top, #86e070, #327299);
+  background-image: -ms-linear-gradient(top, #86e070, #327299);
+  background-image: -o-linear-gradient(top, #86e070, #327299);
+  background-image: linear-gradient(to bottom, #86e070, #327299);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none; 
+}
+.btn_card:hover{
+    background: #c2dded;
+  background-image: -webkit-linear-gradient(top, #c2dded, #86959e);
+  background-image: -moz-linear-gradient(top, #c2dded, #86959e);
+  background-image: -ms-linear-gradient(top, #c2dded, #86959e);
+  background-image: -o-linear-gradient(top, #c2dded, #86959e);
+  background-image: linear-gradient(to bottom, #c2dded, #86959e);
+  text-decoration: none;
+}
+
+/*******************Footer*************************/
+
+footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color:gray;
+    text-align: center;
+}
+
+footer ul.social-icons {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+footer ul.social-icons li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+footer ul.social-icons li:first-child {
+    margin-left: 0;
+}
+
+footer ul.social-icons li:last-child {
+    margin-right: 0;
+}
+
+footer ul.social-icons li a {
+    color:black;
+    font-size: 16px;
+    transition: all .4s ease;
+}
+
+footer ul.social-icons li a:hover {
+    color: #fff;
+}
+
+footer p {
+    color: black;
+    margin: 24px 0 0 0;
+    font-size: 14px;
+}
+
